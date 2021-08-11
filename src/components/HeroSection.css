@@ -1,0 +1,38 @@
+body {
+  background-color: #444;
+}
+
+.hero-container {
+  background: url('./images/background2.jpg') center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-size: cover;
+  background-attachment: fixed;
+  z-index: -1;
+  opacity: .8;
+  justify-content: center;
+  overflow: hidden;
+}
+
+h2.sm-heading {
+  margin-top: 8px;
+  margin-left: 15px;
+  color: #fff;
+  font-size: 1.5rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgba(73, 73, 73, 0.5); 
+  font-weight: 400;
+  padding: 0.2rem 1rem;
+  text-align: left;
+  width: 98%;
+}
+.headings {
+  width: 100%;
+}
+
+.text-secondary {
+  color: #00afd7;
+}
