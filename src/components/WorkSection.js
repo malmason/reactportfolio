@@ -1,5 +1,14 @@
 import React from 'react';
 import '../App.css';
+import workout from './images/workout.jpg';
+import sportsbetting from './images/sportsbetting.jpg';
+import weather from './images/weather.jpg';
+import workday from './images/workdayscheduler.jpg';
+import solacecandles from './images/solace-candles.jpg';
+import solaceprofile from './images/solace-profile.jpg';
+import indacut from './images/indacut.jpg';
+import rawluxe from './images/rawluxe.jpg';
+import poshdesigns from './images/poshdesigns.jpg';
 
 function WorkSection() {
   return (
@@ -9,7 +18,7 @@ function WorkSection() {
       <div class="projects">
         <div class="item">
           <a href="https://greggd1991.github.io/SportsBets/" target="_blank" rel="noreferrer">
-            <img src="./images/sportsbetting.jpg" alt="sports betting" class="school-project"/>
+            <img src={sportsbetting} alt="sports betting" class="school-project"/>
           </a>  
           <h2>Statbadger</h2>
             <p>
@@ -19,7 +28,7 @@ function WorkSection() {
         </div>
         <div class="item">
           <a href="https://tranquil-beyond-43999.herokuapp.com/" target="_blank" rel="noreferrer">
-            <img src="./images/workout.jpg" alt="sports betting" class="school-project"/>
+            <img src={workout} alt="sports betting" class="school-project"/>
           </a>  
           <h2>21st Century Workout</h2>
             <p>
@@ -29,7 +38,7 @@ function WorkSection() {
         </div>
         <div class="item">
           <a href="https://malmason.github.io/weather-api/" target="_blank" rel="noreferrer">
-            <img src="./images/weather.jpg" alt="sports betting" class="school-project"/>
+            <img src={weather} alt="sports betting" class="school-project"/>
           </a>  
           <h2>Weather Dashboard</h2>
           <p>
@@ -39,7 +48,7 @@ function WorkSection() {
         </div>
         <div class="item">
           <a href="https://malmason.github.io/workday-scheduler/" target="_blank" rel="noreferrer">
-            <img src="./images/workdayscheduler.jpg" alt="sports betting" class="school-project"/>
+            <img src={workday} alt="sports betting" class="school-project"/>
           </a>  
           <h2>Workday Scheduler</h2>
             <p>
@@ -53,7 +62,7 @@ function WorkSection() {
       <div class="projects">
         <div class="item">
           <a href="#!">
-            <img src="./images/solace-candles.jpg" alt="solace umore candles" id="main-image" />
+            <img src={solacecandles} alt="solace umore candles" id="main-image" />
           </a>
         </div>
         <p>
@@ -75,7 +84,7 @@ function WorkSection() {
     <div class="projects">
       <div class="item">
         <a href="#!">
-          <img src="./images/solace-profile.jpg" alt="solace umore candles" />
+          <img src={solaceprofile} alt="solace umore candles" />
         </a>
         <h2>Solace Umore</h2>
         <p>“Your life becomes a masterpiece when you learn to master peace.” (Mayur Shejul) </p>
@@ -88,7 +97,7 @@ function WorkSection() {
       </div>
       <div class="item">
         <a href="#!">
-          <img src="./images/indacut.jpg" alt="In Da Cut Party Rentals" />
+          <img src={indacut} alt="In Da Cut Party Rentals" />
         </a>
         <h2>In Da Cut</h2>
         <p>"Your one stop shop for all events."</p>
@@ -103,7 +112,7 @@ function WorkSection() {
       </div>
       <div class="item">
         <a href="#!">
-          <img src="./images/rawluxe.jpg" alt="Raw Luxe Candles" />
+          <img src={rawluxe} alt="Raw Luxe Candles" />
         </a>
         <h2>Raw Luxe</h2>
         <p>"Creating vibes one candle at a time."
@@ -117,7 +126,7 @@ function WorkSection() {
       </div>
       <div class="item">
           <a href="#!">
-            <img src="./images/poshdesigns.jpg" alt="Posh Designs" />
+            <img src={poshdesigns} alt="Posh Designs" />
           </a>
           <h2>Posh Designs</h2>
           <p>Let us take away the stress of decorating your next event. Posh designs specializes in events of all types. 

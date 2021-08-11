@@ -1,5 +1,6 @@
 import React from 'react';
 import '../App.css';
+import profile from './images/profile-md.jpg'
 
 function AboutSection() {
   return (
@@ -7,7 +8,7 @@ function AboutSection() {
       <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
       <h2 class="sm-heading">A few things about me...</h2>
       <div class="about-info">
-        <img src="./images/profile-md.jpg" alt="" class="bio-image" />
+        <img src={profile} alt="" class="bio-image" />
         <div class="bio">
           <h3 class="text-secondary">Bio</h3>
         </div>
