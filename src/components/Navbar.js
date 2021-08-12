@@ -25,7 +25,7 @@ function Navbar() {
   return (
     <>
       <nav className='navbar'>
-        <img src={logo} alt="" className="logo"></img>
+      <Link to='/' className='nav-links' onClick={closeMobileMenu}><img src={logo} alt="" className="logo"></img></Link>
         <div className='navbar-container'>
           <div className='menu-icon' onClick={handleClick}>
             <i className={click ? 'fas fa-times' : 'fas fa-bars'} />
