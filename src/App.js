@@ -10,7 +10,7 @@ import About from './components/pages/About';
 function App() {
   return (
     <>
-      <Router>
+      <Router basename='/reactportfolio'>
         <Header />
         <Switch>
           <Route path='/' exact component={Index}/>
