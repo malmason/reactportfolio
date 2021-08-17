@@ -37,8 +37,8 @@
 
 
 ## 🔗 Application Links
-* [Github](https://github.com/malmason/reactprofile)
-* [Live Deployment](https://malmason.github.io/reactprofile/)
+* [Github](https://github.com/malmason/reactportfolio)
+* [Live Deployment](https://malmason.github.io/reactportfolio/)
 
 ## 📱 Contact 
 
