@@ -5,14 +5,14 @@ import profile from './images/profile-md.jpg'
 function AboutSection() {
   return (
     <main className="about">
-      <h1 class="lg-heading">About <span class="text-secondary">Me</span></h1>
-      <h2 class="sm-heading">A few things about me...</h2>
-      <div class="about-info">
-        <img src={profile} alt="" class="bio-image" />
-        <div class="bio">
-          <h3 class="text-secondary">Bio</h3>
+      <h1 className="lg-heading">About <span className="text-secondary">Me</span></h1>
+      <h2 className="sm-heading">A few things about me...</h2>
+      <div className="about-info">
+        <img src={profile} alt="" className="bio-image" />
+        <div className="bio">
+          <h3 className="text-secondary">Bio</h3>
         </div>
-        <div class="job job-1">
+        <div className="job job-1">
           <h3>Freelance</h3>
           <h5>Full Stack Web Developer</h5>
           <p>I am an aspiring Web Developer with over 20 years of experience
@@ -23,7 +23,7 @@ function AboutSection() {
             with SQL Server as the backend for storing data. I am currently enrolled at UCONN School of Engineering for Full Stack Web Development.
           </p>
         </div>
-        <div class="job job-2">
+        <div className="job job-2">
           <h3>Athena Health Care Systems</h3>
           <h5>IT Director - Database Analyst</h5>
           <p>
@@ -41,7 +41,7 @@ function AboutSection() {
           </ul>
 
         </div>
-        <div class="job job-3">
+        <div className="job job-3">
           <h3>Kimberly-Clark Corporation</h3>
           <h5>Programmer/Analyst</h5>
           <p>
@@ -58,25 +58,25 @@ function AboutSection() {
               </li>
           </ul>
         </div>
-        <div class="skills">
+        <div className="skills">
           <h2>Skills</h2>
           <p>
             <ul>
-              <li class="database"><i class="fas fa-database"></i> - SQL Server Development</li>
-              <li class="database"><i class="fas fa-database"></i> - MySQL</li>
-              <li class="database"><i class="fas fa-database"></i> - T-SQL Programming</li>
-              <li class="database"><i class="fas fa-database"></i> - Microsoft Access Databases</li>
-              <li class="database"><i class="fas fa-database"></i> - Sequelize</li>
-              <li class="database"><i class="fas fa-database"></i> - MongoDB</li>
-              <li class="excel"><i class="fas fa-file-excel"></i> - Excel VBA Programming</li>
-              <li class="reporting"><i class="fas fa-file-alt"></i> - SSRS Ad-Hoc Reporting</li>
-              <li class="html"><i class="fab fa-html5"></i> - HTML/CSS</li>
-              <li class="html"><i class="far fa-window-maximize"></i> - Express Handlebars</li>
-              <li class="sass"><i class="fab fa-sass"></i> - SASS</li>
-              <li class="js"><i class="fab fa-js"></i> - Javascript</li>
-              <li class="js"><i class="fab fa-bootstrap"></i> - Bootstrap</li>
-              <li class="js"><i class="fab fa-node-js"></i> - Node Js</li>
-              <li class="js"><i class="fab fa-react"></i> - React</li>
+              <li className="database"><i className="fas fa-database"></i> - SQL Server Development</li>
+              <li className="database"><i className="fas fa-database"></i> - MySQL</li>
+              <li className="database"><i className="fas fa-database"></i> - T-SQL Programming</li>
+              <li className="database"><i className="fas fa-database"></i> - Microsoft Access Databases</li>
+              <li className="database"><i className="fas fa-database"></i> - Sequelize</li>
+              <li className="database"><i className="fas fa-database"></i> - MongoDB</li>
+              <li className="excel"><i className="fas fa-file-excel"></i> - Excel VBA Programming</li>
+              <li className="reporting"><i className="fas fa-file-alt"></i> - SSRS Ad-Hoc Reporting</li>
+              <li className="html"><i className="fab fa-html5"></i> - HTML/CSS</li>
+              <li className="html"><i className="far fa-window-maximize"></i> - Express Handlebars</li>
+              <li className="sass"><i className="fab fa-sass"></i> - SASS</li>
+              <li className="js"><i className="fab fa-js"></i> - Javascript</li>
+              <li className="js"><i className="fab fa-bootstrap"></i> - Bootstrap</li>
+              <li className="js"><i className="fab fa-node-js"></i> - Node Js</li>
+              <li className="js"><i className="fab fa-react"></i> - React</li>
             </ul>
           </p>
         </div>

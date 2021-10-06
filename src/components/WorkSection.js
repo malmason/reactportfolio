@@ -13,54 +13,54 @@ import poshdesigns from './images/poshdesigns.jpg';
 function WorkSection() {
   return (
     <main className='work'>
-      <h1 class="lg-heading">My <span class="text-secondary">Work</span></h1>
-      <h2 class="sm-heading">Here are some of my deployed projects...</h2>
-      <div class="projects">
-        <div class="item">
+      <h1 className="lg-heading">My <span className="text-secondary">Work</span></h1>
+      <h2 className="sm-heading">Here are some of my deployed projects...</h2>
+      <div className="projects">
+        <div className="item">
           <a href="https://greggd1991.github.io/SportsBets/" target="_blank" rel="noreferrer">
-            <img src={sportsbetting} alt="sports betting" class="school-project"/>
+            <img src={sportsbetting} alt="sports betting" className="school-project"/>
           </a>  
           <h2>Statbadger</h2>
             <p>
-              Statbadger <span class="group1">(Group Project 1)</span> is a sports betting simulator application. You can view the games of the day as well as place bets on the outcome.
+              Statbadger <span className="group1">(Group Project 1)</span> is a sports betting simulator application. You can view the games of the day as well as place bets on the outcome.
             </p>
-            <div class="centered"><a class="proj-link" href="https://greggd1991.github.io/SportsBets/" target="_blank" rel="noreferrer">Statbadger</a><a class="github" href="https://github.com/greggd1991/SportsBets" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></div>
+            <div className="centered"><a className="proj-link" href="https://greggd1991.github.io/SportsBets/" target="_blank" rel="noreferrer">Statbadger</a><a className="github" href="https://github.com/greggd1991/SportsBets" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></div>
         </div>
-        <div class="item">
+        <div className="item">
           <a href="https://tranquil-beyond-43999.herokuapp.com/" target="_blank" rel="noreferrer">
-            <img src={workout} alt="sports betting" class="school-project"/>
+            <img src={workout} alt="sports betting" className="school-project"/>
           </a>  
           <h2>21st Century Workout</h2>
             <p>
               21st Century Workout is an application that allows you to create a workout plan based on 7 different categories. It allows you to track your progress against the created schedule.
             </p>
-            <div class="centered"><a class="proj-link" href="https://tranquil-beyond-43999.herokuapp.com/" target="_blank" rel="noreferrer">21st Century</a><a class="github" href="https://github.com/malmason/21stCenturyFitness" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></div>
+            <div className="centered"><a className="proj-link" href="https://tranquil-beyond-43999.herokuapp.com/" target="_blank" rel="noreferrer">21st Century</a><a className="github" href="https://github.com/malmason/21stCenturyFitness" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></div>
         </div>
-        <div class="item">
+        <div className="item">
           <a href="https://malmason.github.io/weather-api/" target="_blank" rel="noreferrer">
-            <img src={weather} alt="sports betting" class="school-project"/>
+            <img src={weather} alt="sports betting" className="school-project"/>
           </a>  
           <h2>Weather Dashboard</h2>
           <p>
             Weather dashboard is an application that allows you to enter in a city and state to get the current weather conditions along with a 5-day forecast. 
           </p>
-          <div class="centered"><a class="proj-link" href="https://malmason.github.io/weather-api/" target="_blank" rel="noreferrer">Weather</a><a class="github" href="https://github.com/malmason/weather-api" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></div>
+          <div className="centered"><a className="proj-link" href="https://malmason.github.io/weather-api/" target="_blank" rel="noreferrer">Weather</a><a className="github" href="https://github.com/malmason/weather-api" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></div>
         </div>
-        <div class="item">
+        <div className="item">
           <a href="https://malmason.github.io/workday-scheduler/" target="_blank" rel="noreferrer">
-            <img src={workday} alt="sports betting" class="school-project"/>
+            <img src={workday} alt="sports betting" className="school-project"/>
           </a>  
           <h2>Workday Scheduler</h2>
             <p>
               Workday Scheduler is a calendar application that accepts appointments in different time blocks for the current day and stores them locally.
             </p>
-            <div class="centered"><a class="proj-link" href="https://malmason.github.io/workday-scheduler/" target="_blank" rel="noreferrer">Scheduler</a><a class="github" href="https://github.com/malmason/workday-scheduler" target="_blank" rel="noreferrer"><i class="fab fa-github"></i></a></div>
+            <div className="centered"><a className="proj-link" href="https://malmason.github.io/workday-scheduler/" target="_blank" rel="noreferrer">Scheduler</a><a className="github" href="https://github.com/malmason/workday-scheduler" target="_blank" rel="noreferrer"><i className="fab fa-github"></i></a></div>
         </div>
       </div>
 
-      <h2 class="sm-heading">Featured Personal Project</h2>
-      <div class="projects">
-        <div class="item">
+      <h2 className="sm-heading">Featured Personal Project</h2>
+      <div className="projects">
+        <div className="item">
           <a href="#!">
             <img src={solacecandles} alt="solace umore candles" id="main-image" />
           </a>
@@ -79,10 +79,10 @@ function WorkSection() {
         </p>
       </div>
 
-      <h2 class="sm-heading">Here are some descriptions of my upcoming projects...</h2>
+      <h2 className="sm-heading">Here are some descriptions of my upcoming projects...</h2>
     
-    <div class="projects">
-      <div class="item">
+    <div className="projects">
+      <div className="item">
         <a href="#!">
           <img src={solaceprofile} alt="solace umore candles" />
         </a>
@@ -95,7 +95,7 @@ function WorkSection() {
           handmade candles are 100% soy. Soy wax is known to produce high quality scents that will 
           entice and illuminate your senses with a captive aroma.</p>
       </div>
-      <div class="item">
+      <div className="item">
         <a href="#!">
           <img src={indacut} alt="In Da Cut Party Rentals" />
         </a>
@@ -110,7 +110,7 @@ function WorkSection() {
           events. 
         </p>
       </div>
-      <div class="item">
+      <div className="item">
         <a href="#!">
           <img src={rawluxe} alt="Raw Luxe Candles" />
         </a>
@@ -124,7 +124,7 @@ function WorkSection() {
           can be enjoyed by all.
         </p>
       </div>
-      <div class="item">
+      <div className="item">
           <a href="#!">
             <img src={poshdesigns} alt="Posh Designs" />
           </a>

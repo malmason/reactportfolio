@@ -32,16 +32,16 @@ function Navbar() {
           </div>
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
             <li className='nav-item'>
-              <Link to='/' className='nav-links' onClick={closeMobileMenu}> <i class="fas fa-home"></i> Home</Link>
+              <Link to='/' className='nav-links' onClick={closeMobileMenu}> <i className="fas fa-home"></i> Home</Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Work' className='nav-links' onClick={closeMobileMenu}><i class="fab fa-node-js"></i> Work</Link>
+              <Link to='/Work' className='nav-links' onClick={closeMobileMenu}><i className="fab fa-node-js"></i> Work</Link>
             </li>
             <li className='nav-item'>
-              <Link to='/Contact' className='nav-links' onClick={closeMobileMenu}> <i class="far fa-address-card"></i> Contact</Link>
+              <Link to='/Contact' className='nav-links' onClick={closeMobileMenu}> <i className="far fa-address-card"></i> Contact</Link>
             </li>
             <li className='nav-item'>
-              <Link to='/About' className='nav-links' onClick={closeMobileMenu}><i class="fas fa-user"></i> About</Link>
+              <Link to='/About' className='nav-links' onClick={closeMobileMenu}><i className="fas fa-user"></i> About</Link>
             </li>
           </ul>
        
